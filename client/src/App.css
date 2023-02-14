@@ -1,0 +1,50 @@
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.Default__home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/cool-background.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.Default__home h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #0070b5;
+  letter-spacing: 0.139rem;
+}
+
+.btn {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  bottom: 1px solid #0070b5;
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) =========================*/
+@media screen and (max-width: 1024px) {
+  .Default__home {
+    height: 68vh;
+  }
+}
+/* ======================== MEDIA QUERIES (SMALL DEVICES) =========================*/
+@media screen and (max-width: 600px) {
+  .Default__home {
+    height: 100vh;
+  }
+}
